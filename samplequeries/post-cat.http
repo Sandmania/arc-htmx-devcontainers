@@ -1,0 +1,7 @@
+POST http://localhost:3333/api/cats
+Content-Type: application/json
+
+{
+  "catID": "999",
+  "name": "Atticus"
+}
