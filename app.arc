@@ -3,6 +3,7 @@ arc-htmx-devcontainers
 
 @http
 get /
+get /layout-test
 
 post /api/cats
 get /api/cats
