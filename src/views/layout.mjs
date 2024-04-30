@@ -1,5 +1,6 @@
 export default function layout({
-  heading
+  heading,
+  contents
 }) {
   return `
   <!DOCTYPE html>
@@ -10,6 +11,9 @@ export default function layout({
   </head>
   <body>
    <h1>${heading}</h1>
+   <main>
+    ${contents}
+   </main>
   </body>
   </html>
   `

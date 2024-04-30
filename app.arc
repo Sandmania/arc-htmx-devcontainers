@@ -4,6 +4,7 @@ arc-htmx-devcontainers
 @http
 get /
 get /layout-test
+get /cats/:catID
 
 post /api/cats
 get /api/cats
